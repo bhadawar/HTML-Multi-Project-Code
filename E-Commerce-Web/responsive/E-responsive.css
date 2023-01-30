@@ -1,0 +1,177 @@
+@media (max-width: 1030px) {
+
+    /* home section */
+    .home .home-banner-1,
+    .home .home-banner-2 {
+        background-position: 65% center;
+        min-height: 550px;
+    }
+
+    .home .home-banner .home-banner-text {
+        transform: translate(-80%, -50%);
+    }
+
+    /* home section exit */
+
+
+    /* offer section */
+
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 35px;
+    }
+
+    /* offer section exit */
+
+
+    /* special counter section */
+
+    .special .countdown-container .countdown-counter li {
+        padding: 1.5rem 1rem;
+    }
+
+
+    /* special counter section exit */
+
+}
+
+
+
+@media (max-width:991px) {
+
+    /* home banner section */
+
+    .home .home-banner .home-banner-text {
+        transform: translate(-66%, -50%);
+    }
+
+    /* home banner section exit */
+
+
+    /* special counter section */
+
+    .special .countdown-container {
+        padding-top: 16px;
+        padding-bottom: 80px;
+    }
+
+    /* special counter section exit */
+
+
+
+    /* carousel section */
+
+    .testimonial .carousel-control-prev {
+        left: -1.75rem;
+    }
+
+    .testimonial .carousel-control-next {
+        right: -1.75rem;
+    }
+
+    /* carousel section exit */
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    /* home banner section */
+    .home .home-banner-1,
+    .home .home-banner-2 {
+        background-position: 50% center;
+        min-height: 450px;
+    }
+
+    .home .home-banner .home-banner-text {
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .home .home-banner .home-banner-text h1 {
+        font-size: 2rem;
+    }
+
+    .home .home-banner .home-banner-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .home .home-banner .home-banner-text .btn-danger {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .home .slider-icon {
+        font-size: 1.5rem;
+    }
+
+    /* home banner section exit */
+
+
+    /* up to 75% off */
+
+    .products .up_to_content h2 {
+        font-size: 16px;
+    }
+
+    /* up to 75% off exit */
+
+
+    /* special counter section */
+
+    .special {
+        padding: 4rem 0 !important;
+
+    }
+
+    .special .countdown-container .countdown-counter li {
+        padding: 16px;
+        /* width: 20%; */
+        width: 35%;
+        margin: 10px 15px;
+    }
+
+    /* special counter section exit */
+
+
+    /* carousel section */
+
+    .testimonial {
+        padding: 20px 10px;
+    }
+
+    .testimonial .carousel-control-prev,
+    .testimonial .carousel-control-next {
+        display: none;
+    }
+
+
+    .testimonial .testmonial-wrapper {
+        padding: 1rem;
+    }
+
+    /* carousel section exit */
+
+}
+
+
+
+@media (max-width: 330px) {
+
+    /* home banner section */
+    .home .home-banner .home-banner-text h2 {
+        font-size: 1rem;
+    }
+
+    /* home banner section exit */
+
+
+    /* up to 75% off */
+
+    .products .up_to_content h2 {
+        font-size: 0.625rem;
+    }
+
+    /* up to 75% off exit */
+
+}

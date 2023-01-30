@@ -1,0 +1,127 @@
+@media (max-width: 991px){
+
+
+/* coustom section */
+
+section{
+    padding: 30px 0;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+/* coustom section exit */
+
+
+
+/* header section */
+
+.header-scrolled{
+    height: auto;
+}
+
+.header-wrapper .menu-navbar-nav{
+    text-align: center;
+    background-color: var(--bg-black);
+    padding-bottom: 15px;
+
+}
+
+.header-wrapper .nav-item .nav-link{
+    margin-top: 15px;
+}
+
+/* header section exit */
+
+
+/* banner section */
+
+.banner-wrapper{
+    padding: 200px 0;
+}
+
+/* banner section exit */
+
+
+/* about section */
+
+.about-wrapper ul.nav-pills{
+    width: 61%;
+    margin: auto;
+}
+
+/* about section exit */
+
+
+/* portfolio section */
+
+.portfolio-wrapper .card{
+    min-height: 400px;
+}
+
+/* portfolio section exit */
+
+
+} 
+
+
+@media (max-width: 767px){
+
+
+/* couston css  */
+
+h1{
+    font-size: 40px;
+    /* line-height: 48; */
+}
+
+h2{
+    font-size: 25px;
+}
+
+p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* couston css exit */
+
+
+/* about section */
+
+.about-wrapper ul.nav-pills{
+    width: 100%;
+    margin: auto;
+    border: 0;
+}
+
+.about-wrapper ul li .nav-link{
+    font-size: 13px;
+    /* margin: 0 5px; */
+}
+
+/* about section exit */
+
+
+/* portfolio section */
+
+.portfolio-wrapper .card{
+    min-height: 500px;
+}
+
+/* portfolio section exit */
+
+
+/* contact section  */
+
+
+
+/* contact section exit */
+
+}

@@ -1,0 +1,201 @@
+@media (max-width:1199px) {
+
+    /* services parallax section start */
+
+    .parallax:not(.parallax-main) {
+        background-size: 50%;
+    }
+
+    .main-wrapper .black-card {
+        width: 100%;
+    }
+
+    /* services parallax section exit */
+
+
+
+    /* process section start   */
+
+    .process-wrapper .process-content {
+        width: 100%;
+    }
+
+    /* process section exit   */
+
+
+
+}
+
+
+@media (max-width:991px) {
+
+
+    /* header section start  */
+
+    .header .navbar-collapse {
+        padding: 2rem;
+    }
+
+    .header .navbar-nav .nav-item .nav-link {
+        padding: 0.6rem 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    /* header section exit  */
+
+
+    /* banner section start  */
+
+    .banner-wrapper {
+        margin-top: 4rem;
+        padding: 4rem 2rem;
+        min-height: 730px;
+    }
+
+
+    /* banner section exit */
+
+
+    /* services parallax section start */
+
+    .main-wrapper .black-card {
+        left: -226px;
+        /* left: 226px; */
+    }
+
+    .main-wrapper .black-card.right {
+        right: -226px;
+    }
+
+    .parallax-main {
+        background-size: cover;
+    }
+
+    /* services parallax section exit */
+
+
+}
+
+
+
+@media (max-width:767px) {
+
+    /* coustom css start */
+
+    body, html {
+        font-size: 8px;
+    }
+
+    /* coustom css exit */
+
+
+    /* banner section start  */
+
+    .banner-wrapper {
+        min-height: 550px;
+    }
+
+
+    /* banner section exit */
+
+
+    /* services parallax section start */
+
+    .parallax:not(.parallax-main) {
+        background-size: cover;
+    }
+
+    .parallax-1 {
+        background-size: cover;
+    }
+
+    .main-wrapper .black-card {
+        left: 5%;
+        width: 90%;
+    }
+
+    .main-wrapper .black-card.right {
+        left: 5%;
+        width: 90%;
+    }
+
+    /* services parallax section exit */
+
+
+}
+
+
+
+
+@media (max-width:590px) {
+
+    /* coustom css start */
+
+    body, html {
+        font-size: 7px;
+    }
+
+    /* coustom css exit */
+
+
+
+    /* services parallax section start */
+
+    .parallax .img2,
+    .parallax .img3,
+    .parallax .img4,
+    .parallax .img5 {
+        height: 408px;
+    }
+
+    .main-wrapper {
+        margin-top: 35vh;
+    }
+
+    /* services parallax section exit */
+
+
+
+    /* footer section start   */
+
+    .footer-wrapper .link-widget a i {
+        font-size: 20px;
+    }
+
+    /* footer section exit   */
+
+}
+
+
+
+
+@media (max-width:390px) {
+
+    /* coustom css start  */
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    /* coustom css exit */
+
+
+
+    /* footer section start  */
+    .footer-wrapper {
+        padding: 4rem 2rem;
+    }
+
+    .footer-wrapper .footer-logo img {
+        width: 20rem;
+    }
+
+    /* footer section exit  */
+
+
+
+}
